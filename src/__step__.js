@@ -83,10 +83,21 @@
 * shift end key (config e)
  */
 
-// vercel
-/*
-*
-* 
-* 
-* 
+//client-firebase and server-vercel and localhost update 
+/*vercel: https://vercel.com/docs/cli: npm i -g vercel --> vercel
+*https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a5
+*vercel.json file add and again command vercel
+* firebase hosting : 1 time for 1 pc: npm install -g firebase-tools --->firebase login
+* for every project: firebase init
+* yes --> hosting configure files--> spacebar for select
+*public: dist--> single page: y -->autometic build: no
+*npm run build
+*firebase deploy
 */ 
+
+// again deply in firebase/update: npm run build --> firebase deploy
+
+//star rating: https://github.com/brillout/awesome-react-components#icons
+// npm i @smastrom/react-rating
+// import { Rating } from '@smastrom/react-rating'
+// import '@smastrom/react-rating/style.css'
