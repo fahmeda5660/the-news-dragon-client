@@ -84,7 +84,8 @@
  */
 
 //client-firebase and server-vercel and localhost update 
-/*vercel: https://vercel.com/docs/cli: npm i -g vercel --> vercel
+// login in vercel.com
+/*vercel: https://vercel.com/docs/cli: npm i -g vercel --> vercel and check version: vercel --version
 *https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a5
 *vercel.json file add and again command vercel
 * firebase hosting : 1 time for 1 pc: npm install -g firebase-tools --->firebase login
@@ -101,3 +102,5 @@
 // npm i @smastrom/react-rating
 // import { Rating } from '@smastrom/react-rating'
 // import '@smastrom/react-rating/style.css'
+
+// github enable: github-->setting-->developer settings-->create new app
