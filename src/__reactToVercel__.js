@@ -1,3 +1,9 @@
+/*
+vercel, firebase,moment, react icon, express, cors,
+context api,private route, environment variable, client deploy in firebase, server in vercel
+react icon-->font awesome
+*/ 
+
 //1. https://reactrouter.com/ ---> install react dom
 //2. firebase: https://console.firebase.google.com/u/0/ --->create--->register--->Authentication:enable(build)
 //3. firebase--->firebase.config.js--->export app
@@ -87,11 +93,32 @@
 // login in vercel.com
 /*vercel: https://vercel.com/docs/cli: npm i -g vercel --> vercel and check version: vercel --version
 *https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a5
-*vercel.json file add and again command vercel
+*vercel.json file add
+
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/", 
+            "methods": ["GET", "POST", "PATCH", "DELETE", "OPTIONS"]
+        }
+    ]
+}
+
+* and again command vercel
 * firebase hosting : 1 time for 1 pc: npm install -g firebase-tools --->firebase login
 * for every project: firebase init
 * yes --> hosting configure files--> spacebar for select
 *public: dist--> single page: y -->autometic build: no
+*vercel --prod
+* environ var: go https://vercel.com/fahmeda5660/car-doctor-server/settings
 *npm run build
 *firebase deploy
 */ 

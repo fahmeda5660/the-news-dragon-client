@@ -1,4 +1,4 @@
-/**
+/*
  * src -->hook-->usetitle.js
  * import { useEffect } from "react"
 
@@ -10,6 +10,6 @@ const useTitle = title =>{
  export default useTitle;
  * 
  * and call from page: useTitle("Home");
- * */ 
+ */ 
 
  

@@ -1,5 +1,5 @@
-
-/**mongodb
+/*mongodb*/ 
+/*
  * https://www.mongodb.com/atlas/database --> signin with google-->accept privacy-->learn mongodb-->exporing-->javascript-->finish
  *free-->aws-->create 
  *authentication: user password copy and store in code 
@@ -30,4 +30,5 @@
  * find mul doc: cursor : https://www.mongodb.com/docs/drivers/node/current/usage-examples/find/
  * 
  * https://expressjs.com/en/starter/basic-routing.html
+ * 
  * */ 

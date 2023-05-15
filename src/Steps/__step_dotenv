@@ -1,0 +1,21 @@
+/**
+ * npm i express cors mongodb dotenv
+ * https://www.npmjs.com/package/dotenv
+ * npm install dotenv --save
+ * server --> index.js -->require('dotenv').config()
+ * 
+ * Create a .env file in the root of your project: 
+ * S3_BUCKET="YOURS3BUCKET"
+ * SECRET_KEY="YOURSECRETKEYGOESHERE"
+ * console.log(process.env.DB_USER); from index.js
+ * git status 
+ * for upload img: https://imgbb.com/
+ * sweetalert: https://sweetalert2.github.io/
+ * npm install sweetalert2
+ * import Swal from 'sweetalert2'
+ * UI theke card remove na hole arekta state nibo, remaining ta update korbo state e
+ * props types eslintrc in eslintrc:   rules: {
+    'react-refresh/only-export-components': 'warn',
+    "react/prop-types":"off"
+  },
+ * **/ 
