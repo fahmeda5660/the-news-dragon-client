@@ -16,7 +16,7 @@ imgbb
  * npm init -y
  * code .
  * package.json er script e likhbo "start": "node index.js",
- * npm i express cors mongodb dotenv
+ * npm i express cors mongodb dotenv jsonwebtoken
  * .gitignore -->node_modules     .env
  * https://www.section.io/engineering-education/how-to-setup-nodejs-express-for-react/
  * nodemon index.js

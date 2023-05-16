@@ -8,6 +8,7 @@
  * S3_BUCKET="YOURS3BUCKET"
  * SECRET_KEY="YOURSECRETKEYGOESHERE"
  * console.log(process.env.DB_USER); from index.js
+ * template string er majhe ${process.env.DB_USER}
  * git status 
  * for upload img: https://imgbb.com/
  * sweetalert: https://sweetalert2.github.io/
