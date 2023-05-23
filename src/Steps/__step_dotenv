@@ -7,6 +7,8 @@
  * Create a .env file in the root of your project: 
  * S3_BUCKET="YOURS3BUCKET"
  * SECRET_KEY="YOURSECRETKEYGOESHERE"
+DB_USER=carDoctor
+DB_PASS=b7QDlyoeNNRlg7hD
  * console.log(process.env.DB_USER); from index.js
  * template string er majhe ${process.env.DB_USER}
  * git status 

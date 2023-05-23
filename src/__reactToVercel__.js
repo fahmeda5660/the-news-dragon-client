@@ -15,12 +15,10 @@ react icon-->font awesome
 //7. folder pages for all page-->Home-->Home-->Home.jsx
 // Folder shared: Header, Footer,Sidebar
 // pic -->src-->assets
-// momment js-->https://momentjs.com/
-// npm install moment --save 
-// import moment from 'moment';
+
 // components er vitor button
 // https://www.react-fast-marquee.com/
-//install--> import--> 
+//install--> import--> npm install react-fast-marquee --save
 // https://react-icons.github.io/react-icons/
 // npm install --save react-rating
 
@@ -111,14 +109,24 @@ react icon-->font awesome
         }
     ]
 }
-
+environ var: go https://vercel.com/fahmeda5660/car-doctor-server/settings
+go vercel website and five environment varible
 * and again command vercel
+update:
+*vercel --prod
+
 * firebase hosting : 1 time for 1 pc: npm install -g firebase-tools --->firebase login
 * for every project: firebase init
+Set up and deploy “E:\REACT\Assignment11\curious-world”? [Y/n] y
+? Which scope do you want to deploy to? fahmeda5660 enter
+? Link to existing project? [y/N] n
+? What’s your project’s name? curious-world enter
+? In which directory is your code located? ./ enter
+
 * yes --> hosting configure files--> spacebar for select
 *public: dist--> single page: y -->autometic build: no
-*vercel --prod
-* environ var: go https://vercel.com/fahmeda5660/car-doctor-server/settings
+
+firebase hosting update:
 *npm run build
 *firebase deploy
 */ 
